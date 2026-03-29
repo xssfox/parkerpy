@@ -1,0 +1,18 @@
+[project]
+name = "parkerpy"
+version = "0.1.0"
+description = "With advancements in Pi accuracy it's hard to keep up to date with the latest versions of Pi. Additionally it can be useful to pin specific versions of Pi for consistency in projects. parkerpy solves this issue by providing versioned reference values for pi without requiring modifying existing code by patching math.pi."
+authors = [
+    {name = "xssfox",email = "xss@sprocketfox.io"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "parkerpy", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
