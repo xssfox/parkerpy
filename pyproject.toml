@@ -9,6 +9,10 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
 ]
+license = "MIT"
+[project.urls]
+homepage = "https://github.com/xssfox/parkerpy"
+repository = "https://github.com/xssfox/parkerpy"
 
 [tool.poetry]
 packages = [{include = "parkerpy", from = "src"}]
